@@ -1,0 +1,61 @@
+body{
+    background: darkslategray;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 250;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+img{border: 4px solid black;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 400px
+    
+}
+.card{
+    border: 2px solid black;
+    border-color: slategray;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0;
+}
+
+.bg-gold{
+    background: slategray;
+}
+
+.container{
+    margin: auto;
+    max-width: 1500px;
+}
+a{
+    color: darkslategray;
+    text-decoration: none;
+    transition: all .4s;
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: underline ;
+}
+a:active{
+    color: darkcyan;
+    font-size: 1rem;
+}
+
+.btn{
+    background: rgb(19, 20, 32);
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    font-family: inherit;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.btn:hover{
+    color: antiquewhite;
+    background: rgb(6, 6, 66);
+    font-size: 1rem;
+    opacity: .8;
+}
